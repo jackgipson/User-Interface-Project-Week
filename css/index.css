@@ -152,21 +152,21 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-h1 {
-  font-size: 6rem;
-}
-h2 {
-  font-size: 2.5rem;
-}
 .top-image {
   position: relative;
 }
 h1 {
   position: absolute;
-  bottom: 8px;
+  bottom: 60px;
+  left: 11%;
+  font-size: 6.5rem;
+  color: #FFFFFF;
 }
 .top-content {
   display: flex;
+}
+h2 {
+  font-size: 2.5rem;
 }
 /*------------------------------------*\
 RESET
