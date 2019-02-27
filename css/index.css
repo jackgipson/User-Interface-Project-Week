@@ -140,6 +140,12 @@ table {
 html {
   font-size: 62.5%;
 }
+html,
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background: #FFFFFF;
+  color: #222222;
+}
 /*------------------------------------*\
 RESET
 \*------------------------------------*/
