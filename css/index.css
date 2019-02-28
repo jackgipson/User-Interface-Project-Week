@@ -240,6 +240,7 @@ h2 {
   align-items: center;
   font-size: 3rem;
   bottom: -9%;
+  border: 1px solid #FFFFFF;
 }
 .placement {
   bottom: 65%;
