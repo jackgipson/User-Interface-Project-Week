@@ -246,8 +246,11 @@ h2 {
   bottom: 65%;
   margin: 0;
 }
-.location {
+.position {
   bottom: 64%;
+}
+footer {
+  background-color: #828282;
 }
 /*------------------------------------*\
 RESET
