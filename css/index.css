@@ -191,8 +191,10 @@ h1 {
   height: auto;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   padding-bottom: 5%;
+  font-weight: bold;
+  color: #222222;
 }
 .top-mid {
   display: flex;
@@ -212,6 +214,29 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+}
+.middle-content p {
+  width: 100%;
+  padding-top: 90px;
+  padding-right: 41%;
+  padding-left: 20%;
+}
+.middle-image {
+  position: relative;
+}
+.btn3 {
+  position: absolute;
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  background-color: #D8D8D8;
+  /* flex-direction: row-reverse; */
+  /* padding-left: 81%; */
+  margin-left: 53%;
+  height: 90px;
+  align-items: center;
+  font-size: 3rem;
+  bottom: -9%;
 }
 /*------------------------------------*\
 RESET
