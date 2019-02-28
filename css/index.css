@@ -251,6 +251,7 @@ h2 {
 @media (max-width: 500px) {
   h2 {
     padding-bottom: 30px;
+    padding-left: 5%;
   }
 }
 .top-mid {
@@ -305,6 +306,14 @@ h2 {
   width: 100%;
   padding: 10% 31% 5% 30%;
 }
+@media (max-width: 500px) {
+  .mid-content p,
+  .bottom-content p {
+    width: 100%;
+    padding: 5%;
+    padding-top: 20%;
+  }
+}
 .middle-image,
 .mid-content,
 .bottom-content {
@@ -319,13 +328,19 @@ h2 {
     padding: 0px;
   }
 }
+.mobile1,
+.mobile2 {
+  width: 100%;
+}
 @media (min-width: 501px) {
-  .mobile1 {
+  .mobile1,
+  .mobile2 {
     display: none;
   }
 }
 @media (max-width: 500px) {
-  .view1 {
+  .view1,
+  .view2 {
     display: none;
   }
 }
@@ -351,15 +366,23 @@ h2 {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    bottom: -25%;
+    bottom: -15%;
   }
 }
 .placement {
   bottom: 65%;
   margin: 0;
 }
+@media (max-width: 500px) {
+  .placement {
+    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    bottom: 46%;
+  }
+}
 .position {
-  bottom: 65%;
+  bottom: 46%;
 }
 footer {
   background-color: #828282;

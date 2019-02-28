@@ -81,6 +81,7 @@ h2{
 
     @media (max-width: 500px) {
         padding-bottom: 30px;
+        padding-left: 5%;
     }
   }
 
@@ -142,6 +143,12 @@ flex-direction: row-reverse;
 .mid-content p, .bottom-content p {
     width: 100%;
     padding: 10% 31% 5% 30%;
+
+    @media @phone {
+        width: 100%;
+    padding: 5%;
+    padding-top: 20%;
+    }
 }
 
 .middle-image, .mid-content, .bottom-content {
@@ -154,11 +161,12 @@ flex-direction: row-reverse;
     }
 }
 
-.mobile1 {
+.mobile1, .mobile2 {
     .desktop-no-image();
+    width: 100%;
 }
 
-.view1 {
+.view1, .view2 {
     
     .mobile-no-image();
 }
@@ -182,15 +190,28 @@ flex-direction: row-reverse;
 width: 90%;
 margin-left: 5%;
 margin-right: 5%;
-bottom: -25%
+bottom: -15%
     }
 }
+
+// .btn4 {
+//     @media @phone {
+//         width: 100%;
+//     }
+// }
 
 .placement {
     bottom: 65%;
     margin: 0;
+
+    @media @phone {
+        width: 100%;
+        width: 90%;
+    margin-left: 5%;
+    bottom: 46%;
+    }
 }
 
 .position {
-    bottom: 65%;
+    bottom: 46%;
 }
