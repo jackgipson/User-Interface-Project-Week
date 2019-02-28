@@ -297,6 +297,7 @@ h2 {
   .middle-content p {
     width: 100%;
     padding: 5%;
+    padding-top: 20%;
   }
 }
 .mid-content p,
@@ -316,6 +317,16 @@ h2 {
   .bottom-content {
     width: 100%;
     padding: 0px;
+  }
+}
+@media (min-width: 501px) {
+  .mobile1 {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .view1 {
+    display: none;
   }
 }
 .btn3,
@@ -340,6 +351,7 @@ h2 {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    bottom: -25%;
   }
 }
 .placement {
