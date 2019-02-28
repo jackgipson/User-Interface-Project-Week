@@ -143,16 +143,16 @@ html {
 html,
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
-  background: #FFFFFF;
-  color: #222222;
+  background: black;
 }
 .container {
   max-width: 1024px;
   width: 100%;
   margin: 0px auto;
   font-size: 1.6rem;
-  padding: 5px;
   line-height: 24px;
+  background: white;
+  color: black;
 }
 .top-image {
   position: relative;
@@ -206,6 +206,10 @@ h2 {
   margin-left: 4%;
   margin-top: 50px;
 }
+.view1,
+.view2 {
+  width: 100%;
+}
 .btn2 {
   height: 40px;
   border: 1px solid #222222;
@@ -215,16 +219,20 @@ h2 {
   align-items: center;
   margin-top: 20px;
 }
-.middle-content p,
+.middle-content p {
+  width: 100%;
+  padding: 1% 31% 10% 30%;
+}
 .mid-content p,
 .bottom-content p {
   width: 100%;
-  padding: 10% 41% 10% 20%;
+  padding: 10% 31% 5% 30%;
 }
 .middle-image,
 .mid-content,
 .bottom-content {
   position: relative;
+  padding: 0px 80px 60px 80px;
 }
 .btn3,
 .btn4 {
@@ -239,7 +247,7 @@ h2 {
   height: 90px;
   align-items: center;
   font-size: 3rem;
-  bottom: -9%;
+  bottom: 8%;
   border: 1px solid #FFFFFF;
 }
 .placement {
@@ -247,10 +255,38 @@ h2 {
   margin: 0;
 }
 .position {
-  bottom: 64%;
+  bottom: 65%;
 }
 footer {
   background-color: #828282;
+  color: #FFFFFF;
+  padding: 5%;
+  padding-bottom: 1%;
+}
+.footer-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 4%;
+}
+.email {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 40px;
+  color: #828282;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+.locations p {
+  font-size: 1.4rem;
+  line-height: 26px;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
 }
 /*------------------------------------*\
 RESET
