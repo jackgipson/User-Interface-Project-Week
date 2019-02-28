@@ -37,7 +37,7 @@ h1 {
     @media (max-width: 500px) {
     width: 100%;
     flex-direction: column-reverse;
-    padding: 8%;
+    padding: 5%;
 }
 }
 
@@ -81,8 +81,16 @@ h2{
 
     @media (max-width: 500px) {
         padding-bottom: 30px;
-        padding-left: 5%;
+        //padding-left: 5%;
     }
+  }
+
+  #header-h2 {
+      padding-bottom: 0px;
+  }
+
+  #sub-header {
+      padding-left: 5%;
   }
 
 .top-mid {
@@ -95,13 +103,17 @@ flex-direction: row-reverse;
 @media (max-width: 500px) {
     width: 100%;
     flex-direction: column-reverse;
-    padding: 8%
+    padding: 5%
 }
 }
 
 .top-mid-right {
     margin-left: 4%;
    margin-top: 50px;
+
+   @media @phone {
+       margin-left: 0px;
+   }
 }
 
 .view1, .view2 {
@@ -159,6 +171,15 @@ flex-direction: row-reverse;
         width: 100%;
         padding: 0px;
     }
+}
+
+.building, .plans {
+    .mobile-no-image();
+}
+
+.building1, .plans1 {
+    .desktop-no-image();
+    width: 100%;
 }
 
 .mobile1, .mobile2 {

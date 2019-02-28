@@ -215,7 +215,7 @@ h1 {
   .top-content {
     width: 100%;
     flex-direction: column-reverse;
-    padding: 8%;
+    padding: 5%;
   }
 }
 .top-content-left {
@@ -251,8 +251,13 @@ h2 {
 @media (max-width: 500px) {
   h2 {
     padding-bottom: 30px;
-    padding-left: 5%;
   }
+}
+#header-h2 {
+  padding-bottom: 0px;
+}
+#sub-header {
+  padding-left: 5%;
 }
 .top-mid {
   display: flex;
@@ -264,12 +269,17 @@ h2 {
   .top-mid {
     width: 100%;
     flex-direction: column-reverse;
-    padding: 8%;
+    padding: 5%;
   }
 }
 .top-mid-right {
   margin-left: 4%;
   margin-top: 50px;
+}
+@media (max-width: 500px) {
+  .top-mid-right {
+    margin-left: 0px;
+  }
 }
 .view1,
 .view2 {
@@ -326,6 +336,22 @@ h2 {
   .bottom-content {
     width: 100%;
     padding: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .building,
+  .plans {
+    display: none;
+  }
+}
+.building1,
+.plans1 {
+  width: 100%;
+}
+@media (min-width: 501px) {
+  .building1,
+  .plans1 {
+    display: none;
   }
 }
 .mobile1,
