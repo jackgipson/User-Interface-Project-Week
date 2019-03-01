@@ -4,6 +4,10 @@ footer {
     padding: 10%;
     padding-top: 5%;
     padding-bottom: 1%;
+
+    @media @phone {
+        padding: 5%;
+    }
 }
 
 .footer-container {
@@ -11,6 +15,11 @@ footer {
     width: 100%;
     justify-content: space-between;
     padding-bottom: 4%;
+
+    @media @phone {
+        flex-direction: column;
+     
+    }
 
 }
 
@@ -31,6 +40,10 @@ footer {
 
 .locations {
     font-size: 2.0rem;
+
+    @media @phone {
+    padding-top: 30px;
+    }
 }
 
 .locations p {
@@ -47,4 +60,15 @@ h4 {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
+
+    @media @phone {
+        padding-top: 30px;
+        justify-content: flex-start;
+    }
+}
+
+#sign-up {
+    @media @phone {
+        padding-top: 0px;
+    }
 }
