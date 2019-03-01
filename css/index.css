@@ -208,7 +208,7 @@ h1 {
 }
 .top-content {
   display: flex;
-  padding: 50px 80px 60px 80px;
+  padding: 50px 8% 60px 8%;
   justify-content: space-between;
 }
 @media (max-width: 500px) {
@@ -247,6 +247,7 @@ h2 {
   font-size: 2.8rem;
   font-weight: bold;
   color: black;
+  padding-bottom: 20px;
 }
 @media (max-width: 500px) {
   h2 {
@@ -257,7 +258,12 @@ h2 {
   padding-bottom: 0px;
 }
 #sub-header {
-  padding-left: 5%;
+  padding-bottom: 50px;
+}
+@media (max-width: 500px) {
+  #sub-header {
+    padding-left: 5%;
+  }
 }
 .top-mid {
   display: flex;
@@ -480,6 +486,29 @@ h4 {
   #sign-up {
     padding-top: 0px;
   }
+}
+.tabs-links {
+  display: flex;
+  justify-content: space-between;
+}
+.tabs-link {
+  display: flex;
+  border: 1px solid black;
+  height: 50px;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+.service-content {
+  padding: 8%;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+.section {
+  padding-top: 40px;
+}
+.img-content {
+  display: flex;
 }
 /*------------------------------------*\
 RESET
