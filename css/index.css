@@ -135,22 +135,13 @@ table {
 }
 /* Your Code Goes Here */
 .menu-button {
-  right: 500px;
   cursor: pointer;
-  height: 20px;
 }
 .menu {
   display: none;
   position: fixed;
-  top: 75px;
-  left: 0;
-  width: 350px;
-  height: 100vh;
-  /* This give the height 100% of the screen or, '100% of View Height' */
+  width: 100%;
   background-color: #9AA4AF;
-  border: 1px solid white;
-  border-left: none;
-  border-bottom: none;
   z-index: 2;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
@@ -159,9 +150,15 @@ table {
   font-size: 32px;
   padding: 30px 0;
   text-align: center;
+  color: #4F4545;
+  font-weight: bold;
 }
 .menu--open {
-  display: block;
+  max-width: 1024px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 * {
   box-sizing: border-box;
@@ -498,6 +495,19 @@ h4 {
   width: 20%;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  /* selected link */
+}
+.tabs-link:active {
+  background: #5E9FB9;
+}
+.tabs-link:hover {
+  background: #222222;
+  color: #FFF;
+}
+.tabs-link .tabs-link-selected:active {
+  color: #5E9FB9;
 }
 .service-content {
   padding: 50px 8% 0px 8%;
