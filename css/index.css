@@ -159,6 +159,7 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.95;
 }
 * {
   box-sizing: border-box;
