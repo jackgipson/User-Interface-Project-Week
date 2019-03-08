@@ -480,7 +480,7 @@ h4 {
 }
 .service-tabs {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   padding: 10px 20px;
   border: 1px solid black;
   display: inline-block;
@@ -490,6 +490,9 @@ h4 {
   background-color: #5e9fb9;
   font-weight: bold;
   color: white;
+}
+.service-desktop-img {
+  width: 100%;
 }
 @media (max-width: 500px) {
   .service-desktop-img {
@@ -517,7 +520,7 @@ h4 {
 }
 .service-page .service-text-top {
   margin: 50px 0px;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 24px;
 }
 .service-page .tab-links {
@@ -534,7 +537,7 @@ h4 {
 }
 .service-page .tab-links .tab-link {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   padding: 10px 20px;
   border: 1px solid black;
   display: inline-block;
@@ -557,7 +560,7 @@ h4 {
 }
 .service-page .tab-link-selected .tab-link {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   padding: 10px 20px;
   border: 1px solid black;
   display: inline-block;
@@ -572,7 +575,7 @@ h4 {
   display: none;
 }
 .service-page .tab-item .tab-text {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 24px;
 }
 .service-page .tab-item .tab-text p {
@@ -580,8 +583,16 @@ h4 {
 }
 .service-page .tab-item .tab-title {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.4rem;
   margin-bottom: 15px;
+}
+.service-page .tab-item .tab-text {
+  width: 48%;
+}
+@media (max-width: 500px) {
+  .service-page .tab-item .tab-text {
+    width: 100%;
+  }
 }
 .service-page .tab-item .tab-service-img {
   margin-top: 35px;
@@ -597,7 +608,7 @@ h4 {
   }
 }
 .service-page .tab-item-selected .tab-text {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 24px;
 }
 .service-page .tab-item-selected .tab-text p {
@@ -605,7 +616,7 @@ h4 {
 }
 .service-page .tab-item-selected .tab-title {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.4rem;
   margin-bottom: 15px;
 }
 .service-page .tab-item-selected .tab-service-img {
