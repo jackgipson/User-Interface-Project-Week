@@ -481,9 +481,10 @@ h4 {
 .service-tabs {
   font-weight: bold;
   font-size: 2rem;
-  padding: 10px 20px;
+  padding: 1%;
   border: 1px solid black;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   cursor: pointer;
 }
 .service-tabs:hover {
@@ -493,6 +494,7 @@ h4 {
 }
 .service-desktop-img {
   width: 100%;
+  margin-left: 8%;
 }
 @media (max-width: 500px) {
   .service-desktop-img {
@@ -538,9 +540,10 @@ h4 {
 .service-page .tab-links .tab-link {
   font-weight: bold;
   font-size: 2rem;
-  padding: 10px 20px;
+  padding: 1%;
   border: 1px solid black;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   cursor: pointer;
 }
 .service-page .tab-links .tab-link:hover {
@@ -552,6 +555,7 @@ h4 {
   .service-page .tab-links .tab-link {
     margin-bottom: 25px;
     padding: 3%;
+    justify-content: center;
   }
 }
 .service-page .tab-link-selected {
@@ -561,9 +565,10 @@ h4 {
 .service-page .tab-link-selected .tab-link {
   font-weight: bold;
   font-size: 2rem;
-  padding: 10px 20px;
+  padding: 1%;
   border: 1px solid black;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   cursor: pointer;
 }
 .service-page .tab-link-selected .tab-link:hover {

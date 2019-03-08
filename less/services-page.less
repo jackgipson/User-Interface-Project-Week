@@ -2,9 +2,10 @@
 .service-tabs{
     font-weight: bold;
     font-size: 2.0rem;
-    padding: 10px 20px;
+    padding: 1%;
     border: 1px solid black;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
 
     &:hover {
@@ -16,6 +17,7 @@
 
 .service-desktop-img {
     width: 100%;
+    margin-left: 8%;
 
     @media @phone {
         display: none;
@@ -30,6 +32,7 @@
         width: 100%;
     }
 }
+
 .service-page {
     padding: 0px 8% 0px 8%;
     
@@ -62,6 +65,7 @@
             @media @phone {
                 margin-bottom: 25px;
                 padding: 3%;
+                justify-content: center;
             }
         }
     }
