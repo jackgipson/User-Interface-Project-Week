@@ -1,0 +1,150 @@
+
+.service-tabs {
+    font-weight: bold;
+    font-size: 2.0rem;
+    padding: 1%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #5e9fb9;
+        font-weight: bold;
+        color: @white;
+    }
+}
+
+.service-desktop-img {
+    width: 100%;
+    margin-left: 8%;
+
+    @media @phone {
+        display: none;
+    }
+}
+
+.service-mobile-img {
+    display: none;
+
+    @media @phone {
+        display: block;
+        width: 100%;
+    }
+}
+
+.service-page {
+    padding: 0px 8% 0px 8%;
+    
+    @media @phone {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-text-top {
+        margin: 50px 0px;
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
+
+    .tab-links {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        @media @phone {
+            width: 95%;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .tab-link {
+            .service-tabs();
+
+            @media @phone {
+                margin-bottom: 25px;
+                padding: 3%;
+                justify-content: center;
+            }
+        }
+    }
+
+    .tab-link-selected {
+        color: @white;
+        background-color: #5e9fb9;
+
+        .tab-link {
+            .service-tabs();
+        }
+    }
+
+    .tab-item {
+        display: none;
+
+        .tab-text {
+            font-size: 1.6rem;
+            line-height: 24px;
+            
+            p{
+                margin-bottom: 25px;
+            }
+        }
+        
+
+        .tab-title {
+            font-weight: bold;
+            font-size: 2.4rem;
+            margin-bottom: 15px;
+        }
+
+        .tab-text {
+            width: 48%;
+
+            @media @phone {
+                width: 100%;
+            }
+        }
+
+        .tab-service-img {
+            margin-top: 35px;
+            margin-left: 15px;
+            margin-bottom: 100px;
+        }
+    }
+    
+    .tab-item-selected {
+        display:flex;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        .tab-text {
+            font-size: 1.6rem;
+            line-height: 24px;
+            
+            p{
+                margin-bottom: 25px;
+            }
+        }
+        
+
+        .tab-title {
+            font-weight: bold;
+            font-size: 2.4rem;
+            margin-bottom: 15px;
+        }
+
+        .tab-service-img {
+            margin-top: 35px;
+            margin-left: 15px;
+            margin-bottom: 100px;
+
+            @media @phone {
+                margin-bottom: 60px;
+            }
+        }
+    }
+    
+}
